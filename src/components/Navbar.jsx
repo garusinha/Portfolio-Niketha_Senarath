@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import logo from "../assets/logo.svg";
+import logo from "../assets/logo.svg";
 import menu from "../assets/menu_icon.svg";
 import crossicon from "../assets/cross_icon.svg";
 
@@ -16,18 +16,18 @@ const Navbar = () => {
     };
   }, [showMobileMenu]);
   return (
-    <div className="absolute top-0 left-0 w-full z-10">
+    <div className="fixed bg-black absolute top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
-        {/* <img src={logo} alt="" /> */}
-        NIKETHA
+        <img src={logo} alt="" />
+
         <ul className="hidden md:flex gap-7 text-white">
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a href="#Hero" className="cursor-pointer hover:text-gray-400">
             Home
           </a>
           <a href="#About" className="cursor-pointer hover:text-gray-400">
             About
           </a>
-          <a href="#Services" className="cursor-pointer hover:text-gray-400">
+          <a href="#Service" className="cursor-pointer hover:text-gray-400">
             Services
           </a>
           <a
@@ -64,7 +64,7 @@ const Navbar = () => {
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#Header"
+            href="#Hero"
             className="px-4 py-2 rounded-full inline-block "
           >
             Home
@@ -78,7 +78,7 @@ const Navbar = () => {
           </a>
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#Services"
+            href="#Service"
             className="px-4 py-2 rounded-full inline-block "
           >
             Services
