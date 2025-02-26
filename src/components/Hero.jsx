@@ -3,7 +3,7 @@ import HeroImage from "../assets/Hero_Image.jpg";
 
 const Hero = () => {
   return (
-    <div className="bg-black text-white text-center py-16" id="Hero">
+    <div className="bg-black text-white text-center py-16 pt-30" id="Hero">
       <img
         src={HeroImage}
         alt=""
