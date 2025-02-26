@@ -22,7 +22,7 @@ const About = () => {
               and efficient solutions. Constantly learning and improving, I
               strive to build innovative and user-friendly applications.
             </p>
-            <div className="space-y-2 md:space-y-4">
+            <div className="space-y-2 md:space-y-4 w-200">
               <div className="flex items-center">
                 <label
                   htmlFor="htmlandcss"
