@@ -17,7 +17,7 @@ const Contact = () => {
             </h3>
             <p>
               I'm open to discussing web development projects or partnership
-              opportunities.
+              oportunities.
             </p>
             <div className="mb-4 mt-8">
               <FaEnvelope className="inline-block text-green-400 mr-2"></FaEnvelope>
