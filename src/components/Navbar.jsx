@@ -46,6 +46,13 @@ const Navbar = () => {
           alt="Menu Icon"
         />
       </div>
+      {/* Overlay when mobile menu is open */}
+      {showMobileMenu && (
+        <div
+          onClick={() => setShowMobileMenu(false)}
+          className="fixed top-0 left-0 w-full h-screen bg-black/50"
+        ></div>
+      )}
 
       {/* ---------------mobile-menu--------------- */}
       <div
