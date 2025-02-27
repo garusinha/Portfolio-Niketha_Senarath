@@ -174,7 +174,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex justify-center mt-4">
-                  <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-6 py-2 rounded-full w-30">
+                  <button className="cursor-pointer bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-6 py-2 rounded-full w-30">
                     Send
                   </button>
                 </div>
