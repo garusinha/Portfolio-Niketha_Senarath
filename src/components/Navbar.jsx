@@ -17,7 +17,7 @@ const Navbar = () => {
   }, [showMobileMenu]);
 
   return (
-    <div className="fixed bg-black absolute top-0 left-0 w-full z-10">
+    <div className="fixed bg-white/10 backdrop-blur-md top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
         <h1 className="text-white text-lg font-bold">WEB DEVELOPER</h1>
 
