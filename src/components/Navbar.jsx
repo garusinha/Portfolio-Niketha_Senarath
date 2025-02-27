@@ -49,9 +49,9 @@ const Navbar = () => {
 
       {/* ---------------mobile-menu--------------- */}
       <div
-        className={`md:hidden ${
-          showMobileMenu ? "fixed w-full" : "h-0 w-0"
-        } right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}
+        className={`md:hidden fixed top-0 right-0 w-3/4 h-screen bg-white transition-transform ${
+          showMobileMenu ? "translate-x-0" : "translate-x-full"
+        } shadow-lg`}
       >
         <div className="flex justify-end p-6 cursor-pointer">
           <img
