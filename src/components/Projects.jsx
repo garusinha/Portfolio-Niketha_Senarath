@@ -2,6 +2,7 @@ import React from "react";
 import realstate from "../assets/realstate.png";
 import singaporeZoo from "../assets/singaporeZoo.png";
 import sipsayura from "../assets/SipSayura.png";
+import automartlk from "../assets/automartlk.png";
 const projects = [
   {
     id: 1,
@@ -24,6 +25,13 @@ const projects = [
     image: sipsayura,
     github: "https://sipsayura-ed.com/",
   },
+  {
+    id: 3,
+    name: "Automart.lk",
+    technologies: "React JS with Vite and use tailwind CSS",
+    image: automartlk,
+    github: "https://garusinha.github.io/automart.lk/",
+  },
 ];
 
 const Projects = () => {
@@ -34,7 +42,7 @@ const Projects = () => {
           Projects
         </h2>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-center items-center text-center">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 justify-center items-center text-center">
           {projects.map((project) => (
             <div key={project.name} className="p-4 flex flex-col items-center">
               <img
