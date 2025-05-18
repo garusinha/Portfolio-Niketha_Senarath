@@ -12,6 +12,13 @@ const projects = [
     github: "https://garusinha.github.io/project1/",
   },
   {
+    id: 4,
+    name: "Automart.lk",
+    technologies: "React JS with Vite and use tailwind CSS",
+    image: automartlk,
+    github: "https://garusinha.github.io/automart.lk/",
+  },
+  {
     id: 2,
     name: "Singapore Zoo Website",
     technologies: "Html, Css and JavaScript",
@@ -24,13 +31,6 @@ const projects = [
     technologies: "WordPress",
     image: sipsayura,
     github: "https://sipsayura-ed.com/",
-  },
-  {
-    id: 3,
-    name: "Automart.lk",
-    technologies: "React JS with Vite and use tailwind CSS",
-    image: automartlk,
-    github: "https://garusinha.github.io/automart.lk/",
   },
 ];
 

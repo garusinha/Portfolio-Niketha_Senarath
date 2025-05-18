@@ -64,22 +64,22 @@ const About = () => {
             <div className="mt-6 md:mt-10 flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between text-center space-y-4 md:space-y-0">
               <div>
                 <h3 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                  3+
+                  1+
                 </h3>
                 <p className="text-sm md:text-base">Years Experience</p>
               </div>
               <div>
                 <h3 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                  50+
+                  4+
                 </h3>
                 <p className="text-sm md:text-base">Projects Completed</p>
               </div>
-              <div>
+              {/* <div>
                 <h3 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                  10+
+                  1+
                 </h3>
                 <p className="text-sm md:text-base">Happy Clients</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
