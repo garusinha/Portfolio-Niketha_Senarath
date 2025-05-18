@@ -30,9 +30,17 @@ const Hero = () => {
         >
           Contact With Me
         </button>
-        <button className="cursor-pointer bg-gradient-to-r from-green-400 to-blue-500 text-white text-sm md:text-base transform transition-transform duration-300 hover:scale-105 px-3 py-1.5 md:px-4 md:py-2 rounded-full">
+        {/* <button className="cursor-pointer bg-gradient-to-r from-green-400 to-blue-500 text-white text-sm md:text-base transform transition-transform duration-300 hover:scale-105 px-3 py-1.5 md:px-4 md:py-2 rounded-full">
           Resume
-        </button>
+        </button> */}
+
+        <a
+          href="/Niketha_Garusinha_Resume.pdf"
+          download
+          className="inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white text-sm md:text-base transform transition-transform duration-300 hover:scale-105 px-3 py-1.5 md:px-4 md:py-2 rounded-full"
+        >
+          Resume
+        </a>
       </div>
     </div>
   );
